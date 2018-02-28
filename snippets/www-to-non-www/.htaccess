@@ -1,0 +1,13 @@
+# ----------------------------------------------------------------------
+# | Instructions 
+# ----------------------------------------------------------------------
+# [EN] - Force HTTPS and non-www
+# [ES] - Forzar HTTPS y sin-www
+
+# Change "domainname.com" for you main domain
+# Cambiar "domainname.com" por tu dominio principal
+
+RewriteEngine On
+RewriteCond %{HTTPS} !^on [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://domainname.com/$1 [R=301,L]
