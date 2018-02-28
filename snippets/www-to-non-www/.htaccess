@@ -3,6 +3,7 @@
 # ----------------------------------------------------------------------
 # [EN] - Force HTTPS and non-www
 # [ES] - Forzar HTTPS y sin-www
+# (https://www.domainname.com > https://domainname.com)
 
 # Change "domainname.com" for you main domain
 # Cambiar "domainname.com" por tu dominio principal
